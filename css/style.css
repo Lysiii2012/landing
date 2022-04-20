@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************************************************/
+.body{
+    
+    max-width: 1152px;
+    margin: 0 auto;
+}
+.wrapper{
+   max-width: 850px;
+   margin: 0 auto;
+}
+.header{
+    width: 1152px;
+}
+.menu {
+    text-align: right; 
+    padding: 27px 140px 0 0;
+    margin-bottom: 158px;
+
+
+}
+.menu span{
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    max-width: 497px;
+}
+h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin: 0 0 40px 0;
+    width: 480px;
+}
+.content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin: 0 0 38px 0;
+}
+.btn{
+    padding: 11px 15px;
+    background: #FF6464;
+    border-radius: 2px;
+    max-width: 190px;
+    text-align: center;
+    margin: 0 0 75px 0 ;
+}
+.btn a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn:hover{
+    background: #f04949;
+}
+.conteiner{
+    
+    width: 100%;
+    background: url(../img/Rectangle\ 23.png) 100%;
+}
+.second span{
+     font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.second a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.texy{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.ins{
+    max-width: 400px;
+    background: #FFFFFF;
+    padding: 24px 22px 25px;
+    box-sizing: border-box;
+    margin: 0 0 32px 0;
+}
+h2{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin: 0 0 30px 0;
+
+}
+.date{
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    margin: 0 0 12px 0;
+    }
+.text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.conteiner2{
+    padding-top: 15px;
+}
+.aboute{
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin: 0 0 15px 0;
+}
+.desing{
+    display: flex;
+    margin: 0 0 46px 0;
+}
+.about{
+    margin-left: 18px;
+}
+h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 16px;
+}
+.years{
+    font-weight: 900;
+    font-size: 18px;
+   padding: 5px;
+    color: #FFFFFF;
+    background: #142850;
+    border-radius: 16px;
+    max-width: 62px;
+    text-align: center;
+    margin-right: 26px;
+}
+.year{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.translete{
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.list{
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    }
+.last_des{
+    margin-bottom: 87px;
+}
+
+.footer{
+    padding: 52px 0;
+}
+ul{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    
+    margin: 0 16px 26px;
+}
+.end{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
